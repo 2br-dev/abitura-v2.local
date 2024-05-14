@@ -1,0 +1,3244 @@
+{
+	"elements": [
+		{
+			"id": 1,
+			"faculty": "Факультет агрономии и экологии",
+			"profile": "Агрономия",
+			"speciality": "Селекция и генетика сельскохозяйственных культур",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "35.03.04",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": "71*",
+									"main": 45,
+									"target": 12,
+									"particular": 7,
+									"special": 7
+								},
+								"paid": {
+									"total": "10*",
+									"main": 2,
+									"foreign": 8
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements": [
+				{ "name": "Биология", "min": 36 , "classname":"required"},
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Математика", "min": 27 , "classname":"optional"},
+				{ "name": "Химия", "min": 36 , "classname":"optional"},
+				{ "name": "География", "min": 37 , "classname":"optional"},
+				{ "name": "Физика", "min": 36 , "classname":"optional"},
+				{ "name": "Информатика и ИКТ", "min": 40 , "classname":"optional"},
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			],
+			"note": "Суммарно для «Селекция и генетика сельскохозяйственных культур» и «Технологии производства продукции растениеводства»"
+		},
+		{
+			"id": 2,
+			"faculty": "Факультет агрономии и экологии",
+			"profile": "Агрономия",
+			"speciality": "Технологии производства продукции растениеводства",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "35.03.04",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": "71*",
+									"main": 45,
+									"target": 12,
+									"particular": 7,
+									"special": 7
+								},
+								"paid": {
+									"total": "10*",
+									"main": 2,
+									"foreign": 8
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 17,
+									"main": 7,
+									"target": 6,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": 28
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements": [
+				{ "name": "Биология", "min": 36, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Математика", "min": 27, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			],
+			"note": "Суммарно для «Селекция и генетика сельскохозяйственных культур» и «Технологии производства продукции растениеводства»"
+		},
+		{
+			"id": 3,
+			"faculty": "Факультет агрономии и экологии",
+			"profile": "Экология и природопользование",
+			"speciality": "Экология и природопользование",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "05.03.06",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 45,
+									"main": 30,
+									"target": 5,
+									"particular": 5,
+									"special": 5
+								},
+								"paid": {
+									"total": 5,
+									"main": 3,
+									"foreign": 2
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "Магистратура",
+					"code": "05.04.06",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 15,
+									"main": 13,
+									"target": 2
+								},
+								"paid": {
+									"total": 3
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements": [
+				{ "name": "География", "min": 37, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Математика", "min": 27, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 4,
+			"faculty": "Факультет агрохимии и защиты растений",
+			"profile": "Агрохимия и агропочвоведение",
+			"speciality": "Почвенно-агрохимическое обеспечение АПК",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "35.03.03",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 46,
+									"main": 29,
+									"target": 7,
+									"particular": 5,
+									"special": 5
+								},
+								"paid": {
+									"total": 4,
+									"main": 3,
+									"foreign": 1
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements": [
+				{ "name": "Биология", "min": 36, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Математика", "min": 27, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 5,
+			"faculty": "Факультет агрохимии и защиты растений",
+			"profile": "Агрономия",
+			"speciality": "Защита растений",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "35.03.04",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 51,
+									"main": 31,
+									"target": 10,
+									"particular": 5,
+									"special": 5
+								},
+								"paid": {
+									"total": 3,
+									"main": 2,
+									"foreign": 1
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements": [
+				{ "name": "Биология", "min": 36, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Математика", "min": 27, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 6,
+			"faculty": "Архитектурно-строительной факультет",
+			"profile": "Строительство",
+			"speciality": "Проектирование зданий",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "08.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 25,
+									"main": 16,
+									"target": 3,
+									"particular": 3,
+									"special": 3
+								},
+								"paid": {
+									"total": 5,
+									"main": 4,
+									"foreign": 1
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 7,
+			"faculty": "Архитектурно-строительной факультет",
+			"profile": "Строительство",
+			"speciality": "Промышленное и гражданское строительство",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "08.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 50,
+									"main": 35,
+									"target": 5,
+									"particular": 5,
+									"special": 5
+								},
+								"paid": {
+									"total": 8,
+									"main": 4,
+									"foreign": 4
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "4 года 10 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 40
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 8,
+			"faculty": "Архитектурно-строительной факультет",
+			"profile": "Строительство уникальных зданий и сооружений",
+			"speciality": "Строительство высотных и большепролетных зданий и сооружений",
+			"education_levels": [
+				{
+					"name": "Специалитет",
+					"code": "08.05.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "6 лет",
+							"vacations": {
+								"free": {
+									"total": 25,
+									"main": 16,
+									"target": 3,
+									"particular": 3,
+									"special": 3
+								},
+								"paid": {
+									"total": 26,
+									"main": 25,
+									"foreign": 1
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 9,
+			"faculty": "Факультет ветеринарной медицины",
+			"profile": "Ветеринария",
+			"speciality": "Ветеринария",
+			"education_levels": [
+				{
+					"name": "Специалитет",
+					"code": "36.05.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "5 лет",
+							"vacations": {
+								"free": {
+									"total": 70,
+									"main": 33,
+									"target": 23,
+									"particular": 7,
+									"special": 7
+								},
+								"paid": {
+									"total": 15,
+									"main": 10,
+									"foreign": 5
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "5 лет 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 15,
+									"main": 8,
+									"target": 3,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": 10
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements": [
+				{ "name": "Биология", "min": 36, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Математика", "min": 27, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 10,
+			"faculty": "Факультет ветеринарной медицины",
+			"profile": "Ветеринарно-санитарная экспертиза",
+			"speciality": "Ветеринарно-санитарная экспертиза",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "36.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 20,
+									"main": 12,
+									"target": 4,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": 5,
+									"main": 4,
+									"foreign": 1
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements": [
+				{ "name": "Биология", "min": 36, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Математика", "min": 37, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Физика", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 11,
+			"faculty": "Факультет ветеринарной медицины",
+			"profile": "Ветеринарно-санитарная экспертиза",
+			"speciality": "Государственный ветеринарный надзор",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "36.04.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 8,
+									"main": 1,
+									"target": 7
+								},
+								"paid": {
+									"total": 5,
+									"main": 5
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements": []
+		},
+		{
+			"id": 12,
+			"faculty": "Факультет гидромелиорации",
+			"profile": "Природообустройство и водопользование",
+			"speciality": "Мелиорация, рекультивация и охрана земель",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "20.03.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 20,
+									"main": 14,
+									"target": 2,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": 5,
+									"main": 4,
+									"foreign": 1
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "Магистратура",
+					"code": "20.04.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 15,
+									"main": 13,
+									"target": 2
+								},
+								"paid": {
+									"total": 5,
+									"main": 5
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 8,
+									"main": 7,
+									"target": 1
+								},
+								"paid": {
+									"total": 12,
+									"main": 12
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Биология", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 13,
+			"faculty": "Факультет гидромелиорации",
+			"profile": "Природообустройство и водопользование",
+			"speciality": "Инженерные системы сельскохозяйственного водоснабжения, обводнения и водоотведения",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "20.03.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 20,
+									"main": 14,
+									"target": 2,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": 5,
+									"main": 4,
+									"foreign": 1
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 8,
+									"main": 5,
+									"target": 1,
+									"particular": 1,
+									"special": 1
+								},
+								"paid": {
+									"total": 17
+								}
+							}
+						}
+					]
+				}
+			],
+			"price": "500 000",
+			"requirements":  [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Биология", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 14,
+			"faculty": "Факультет гидромелиорации",
+			"profile": "Природообустройство и водопользование",
+			"speciality": "Управление природно-техногенными комплексами и проектами",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "20.03.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 10,
+									"main": 7,
+									"target": 1,
+									"particular": 1,
+									"special": 1
+								},
+								"paid": {
+									"total": 15,
+									"main": 14,
+									"foreign": 1
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname": "required" },
+				{ "name": "Русский язык", "min": 36, "classname": "required" },
+				{ "name": "Физика", "min": 36, "classname": "optional" },
+				{ "name": "Химия", "min": 36, "classname": "optional" },
+				{ "name": "Биология", "min": 36, "classname": "optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname": "optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname": "optional" }
+			]
+		},
+		{
+			"id": 15,
+			"faculty":"Юридический факультет",
+			"profile": "Юриспруденция",
+			"speciality": "Юридическая деятельность в органах публичной власти",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "40.04.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration":"2 г.",
+							"vacations": {
+								"free": {
+									"total": 2,
+									"main": 1,
+									"target": 1
+								},
+								"paid": {
+									"total": 43
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 16,
+			"faculty": "Землеустроительный факультет",
+			"profile": "Землеустройство и кадастры",
+			"speciality": "Землеустройство и кадастры",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "21.03.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 50,
+									"main": 35,
+									"target": 5,
+									"particular": 5,
+									"special": 5
+								},
+								"paid": {
+									"total": 7,
+									"main": 5,
+									"foreign": 2
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 15,
+									"main": 9,
+									"target": 2,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": 35
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 17,
+			"faculty": "Факультет зоотехнии",
+			"profile": "Зоотехния",
+			"speciality": "Технология производства продуктов животноводства",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "36.03.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 40,
+									"main": 26,
+									"target": 6,
+									"particular": 4,
+									"special": 4
+								},
+								"paid": {
+									"total": 10,
+									"main": 8,
+									"foreign": 2
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "4 года 10 мес.",
+							"vacations": {
+								"free": {
+									"total": 13,
+									"main": 7,
+									"target": 2,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": 12
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Биология", "min": 36, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Математика", "min": 27, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 18,
+			"faculty": "Факультет механизации",
+			"profile": "Агроинженерия",
+			"speciality": "Технические системы в агробизнесе",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "35.03.06",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 70,
+									"main": 39,
+									"target": 17,
+									"particular": 7,
+									"special": 7
+								},
+								"paid": {
+									"total": 10,
+									"main": 5,
+									"foreign": 5
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "4 года 9 м.",
+							"vacations": {
+								"free": {
+									"total": 15,
+									"main": 7,
+									"target": 4,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": 10
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 19,
+			"faculty": "Факультет механизации",
+			"profile": "Наземные транспортно-технологические средства",
+			"speciality": "Технические средства агропромышленного комплекса",
+			"education_levels": [
+				{
+					"name": "Специалитет",
+					"code": "23.05.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "5 лет",
+							"vacations": {
+								"free": {
+									"total": 25,
+									"main": 5,
+									"target": 10,
+									"particular": 5,
+									"special": 5
+								},
+								"paid": {
+									"total": 3
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 20,
+			"faculty": "Факультет пищевых производств и биотехнологии",
+			"profile": "Продукты питания из растительного сырья",
+			"speciality": "Производство продуктов питания из растительного сырья",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "19.03.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 40,
+									"main": 28,
+									"target": 4,
+									"particular": 4,
+									"special": 4
+								},
+								"paid": {
+									"total": 10,
+									"main": 9,
+									"foreign": 1
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Биология", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 21,
+			"faculty": "Факультет пищевых производств и биотехнологии",
+			"profile": "Технология хранения и переработки сельскохозяйственной продукции",
+			"speciality": "Технология производства и переработки сельскохозяйственной продукции",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "35.03.07",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 40,
+									"main": 24,
+									"target": 8,
+									"particular": 4,
+									"special": 4
+								},
+								"paid": {
+									"total": 15,
+									"main": 5,
+									"foreign": 10
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 11,
+									"main": 5,
+									"target": 2,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": 14
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Биология", "min": 36, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Математика", "min": 27, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 22,
+			"faculty": "Факультет плодоовощеводства и виноградарства",
+			"profile": "Садоводство",
+			"speciality": "Декоративное садоводство, плодоовощеводство, виноградарство и виноделие",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "35.03.05",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 57,
+									"main": 39,
+									"target": 6,
+									"particular": 6,
+									"special": 6
+								},
+								"paid": {
+									"total": 3,
+									"main": 2,
+									"foreign": 1
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 10,
+									"main": 7,
+									"target": 1,
+									"particular": 1,
+									"special": 1
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Биология", "min": 36, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Математика", "min": 27, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 23,
+			"faculty": "Факультет прикладной информатики",
+			"profile": "Информационные системы и технологии",
+			"speciality": "Создание, модификация и сопровождение информационных систем, администрирование баз данных",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "09.03.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 70,
+									"main": 45,
+									"target": 11,
+									"particular": 7,
+									"special": 7
+								},
+								"paid": {
+									"total": 35,
+									"main": 26,
+									"foreign": 9
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 24,
+			"faculty": "Факультет прикладной информатики",
+			"profile": "Прикладная информатика",
+			"speciality": "Менеджмент проектов в области информационных технологий, создание и поддержка информационных систем",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "09.03.03",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4",
+							"vacations": {
+								"free": {
+									"total": 70,
+									"main": 49,
+									"target": 7,
+									"particular": 7,
+									"special": 7
+								},
+								"paid": {
+									"total": 35,
+									"main": 25,
+									"foreign": 10
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 15,
+									"main": 9,
+									"target": 2,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": 10
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 25,
+			"faculty": "Факультет прикладной информатики",
+			"profile": "Бизнес-информатика",
+			"speciality": "Анализ, моделирование и формирование интегрального представления стратегий и целей, бизнес-процессов и информационно-логической инфраструктуры предприятий и организаций",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "38.03.05",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 50,
+									"main": 49,
+									"foreign": 1
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Обществознание", "min": 42, "classname":"optional" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 26,
+			"faculty": "Факультет управления",
+			"profile": "Государственное и муниципальное управление",
+			"speciality": "Государственное и муниципальное управление",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "38.03.04",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 150,
+									"main": 145,
+									"foreign": 5
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 100
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "Магистратура",
+					"code": "38.04.04",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 1
+								},
+								"paid": {
+									"total": 14
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 30
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Обществознание", "min": 42, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "Математика", "min": 27, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 27,
+			"faculty": "Учетно-финансовый факультет",
+			"profile": "Экономика",
+			"speciality": "Бухгалтерский учёт, анализ и аудит",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "38.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 75,
+									"main": 73,
+									"foreign": 2
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 25
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Обществознание", "min": 42, "classname":"optional" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 28,
+			"faculty": "Учетно-финансовый факультет",
+			"profile": "Экономика",
+			"speciality": "Бизнес-аналитика",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "38.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 75,
+									"main": 69,
+									"foreign": 6
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 25
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Обществознание", "min": 42, "classname":"optional" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 29,
+			"faculty": "Учетно-финансовый факультет",
+			"profile": "Экономическая безопасность",
+			"speciality": "Финансовая безопасность",
+			"education_levels": [
+				{
+					"name": "Специалитет",
+					"code": "38.05.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "5 лет",
+							"vacations": {
+								"free": {
+									"total": 3
+								},
+								"paid": {
+									"total": 47
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "5 лет 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 25
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Обществознание", "min": 42, "classname":"optional" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 30,
+			"faculty": "Факультет финансы и кредит",
+			"profile": "Экономика",
+			"speciality": "Финансы и кредит",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "38.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 75,
+									"main": 65,
+									"foreign": 10
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 0
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Обществознание", "min": 42, "classname":"optional" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 31,
+			"faculty": "Факультет финансы и кредит",
+			"profile": "Финансы и кредит",
+			"speciality": "Финансы и кредит",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "38.04.08",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 20
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 20
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": []
+		},
+		{
+			"id": 32,
+			"faculty": "Экономический факультет",
+			"profile": "Менеджмент",
+			"speciality": "Инновационный менеджмент",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "38.03.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 55,
+									"main": 48,
+									"foreign": 7
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 25
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Обществознание", "min": 42, "classname":"optional" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 33,
+			"faculty": "Экономический факультет",
+			"profile": "Менеджмент",
+			"speciality": "Производственный менеджмент",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "38.03.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 27,
+									"main": 20,
+									"foreign": 7
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 25
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Обществознание", "min": 42, "classname":"optional" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 34,
+			"faculty": "Экономический факультет",
+			"profile": "Экономика",
+			"speciality": "Экономика предприятий и организаций",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "38.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 58,
+									"main": 48,
+									"foreign": 10
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 25
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Обществознание", "min": 42, "classname":"optional" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 35,
+			"faculty": "Экономический факультет",
+			"profile": "Экономическая безопасность",
+			"speciality": "Экономико-правовое обеспечение экономической безопасности",
+			"education_levels": [
+				{
+					"name": "Специалитет",
+					"code": "38.05.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "5 лет",
+							"vacations": {
+								"free": {
+									"total": 5,
+									"main": 2,
+									"target": 1,
+									"particular": 1,
+									"special": 1
+								},
+								"paid": {
+									"total": 95
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "5 лет 8 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 25
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Обществознание", "min": 42, "classname":"optional" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 36,
+			"faculty": "Факультет энергетики",
+			"profile": "Электроэнергетика и электротехника",
+			"speciality": "Электроснабжение",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "13.03.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 45,
+									"main": 26,
+									"target": 9,
+									"particular": 5,
+									"special": 5
+								},
+								"paid": {
+									"total": 5
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 37,
+			"faculty": "Факультет энергетики",
+			"profile": "Агроинженерия",
+			"speciality": "Электрооборудование и электротехнологии",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "35.03.06",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 65,
+									"main": 35,
+									"target": 18,
+									"particular": 6,
+									"special": 6
+								},
+								"paid": {
+									"total": 10,
+									"main": 5,
+									"foreign": 5
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "4 года 9 м.",
+							"vacations": {
+								"free": {
+									"total": 15,
+									"main": 9,
+									"target": 2,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": 10
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "Магистратура",
+					"forms": [
+						{
+							"code": "35.04.06",
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 25,
+									"main": 20,
+									"target": 5
+								},
+								"paid": {
+									"total": 5
+								}
+							}
+						},
+						{
+							"code": "35.04.07",
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 5,
+									"main": 4,
+									"target": 1
+								},
+								"paid": {
+									"total": 10
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 38,
+			"faculty": "Юридический факультет",
+			"profile": "Юриспруденция",
+			"speciality": "Аграрно-правовой",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "40.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": "16*",
+									"main": 10,
+									"target": 2,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": "259*",
+									"main": 254,
+									"foreign": 5
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": "1*",
+									"main": 0,
+									"target": 1
+								},
+								"paid": {
+									"total": "74*"
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Обществознание", "min": 42, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			],
+			"note": "На направление"
+		},
+		{
+			"id": 39,
+			"faculty": "Юридический факультет",
+			"profile": "Юриспруденция",
+			"speciality": "Гражданско-правовой",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "40.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": "16*",
+									"main": 10,
+									"target": 2,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": "259*",
+									"main": 254,
+									"foreign": 5
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": "1*",
+									"main": 0,
+									"target": 1
+								},
+								"paid": {
+									"total": "74*"
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Обществознание", "min": 42, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			],
+			"note": "На направление"
+		},
+		{
+			"id": 40,
+			"faculty": "Юридический факультет",
+			"profile": "Юриспруденция",
+			"speciality": "Государственно-правовой",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "40.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": "16*",
+									"main": 10,
+									"target": 2,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": "259*",
+									"main": 254,
+									"foreign": 5
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Обществознание", "min": 42, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			],
+			"note": "На направление"
+		},
+		{
+			"id": 41,
+			"faculty": "Юридический факультет",
+			"profile": "Юриспруденция",
+			"speciality": "Уголовно-правовой",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "40.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": "16*",
+									"main": 10,
+									"target": 2,
+									"particular": 2,
+									"special": 2
+								},
+								"paid": {
+									"total": "259*",
+									"main": 254,
+									"foreign": 5
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "4 года 8 мес.",
+							"vacations": {
+								"free": {
+									"total": "1*",
+									"main": 0,
+									"target": 1
+								},
+								"paid": {
+									"total": "74*"
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Обществознание", "min": 42, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			],
+			"note": "На направление"
+		},
+		{
+			"id": 42,
+			"faculty": "Институт цифровой экономики и инноваций",
+			"profile": "Экономика",
+			"speciality": "Цифровая экономика",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "38.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 2,
+									"target": 1,
+									"particular": 1
+								},
+								"paid": {
+									"total": 53,
+									"main": 48,
+									"foreign": 5
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Обществознание", "min": 42, "classname":"optional" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 43,
+			"faculty": "Институт цифровой экономики и инноваций",
+			"profile": "Экономика",
+			"speciality": "Цифровая экономика и мировые аграрные рынки",
+			"education_levels": [
+				{
+					"name": "Бакалавриат",
+					"code": "38.03.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "4 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 25
+								}
+							}
+						}
+					]
+				}
+			],
+			"price":"500 000",
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Обществознание", "min": 42, "classname":"optional" },
+				{ "name": "История", "min": 32, "classname":"optional" },
+				{ "name": "География", "min": 37, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 44,
+			"faculty": "Архитектурно-строительной факультет",
+			"profile": "Строительство",
+			"speciality": "Архитектурное проектирование, реконструкция и геотехническое строительство",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "08.04.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration":"2 г.",
+							"vacations": {
+								"free": {
+									"total": 18,
+									"main": 15,
+									"target": 3
+								},
+								"paid": {
+									"total": 7
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration":"2 г. 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 20
+								}
+							}
+						}
+						
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 45,
+			"faculty": "Факультет прикладной информатики",
+			"profile": "Информационные системы и технологии",
+			"speciality": "Проектно-исследовательская деятельность в области информационных технологий",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "09.04.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration":"2 г.",
+							"vacations": {
+								"free": {
+									"total": 17,
+									"main": 14,
+									"target": 3
+								},
+								"paid": {
+									"total": 3
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration":"2 г. 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 10,
+									"main": 8,
+									"target": 2
+								},
+								"paid": {
+									"total": 10
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 46,
+			"faculty": "Факультет прикладной информатики",
+			"profile": "Прикладная информатика",
+			"speciality": "Менеджмент проектов в области информационных систем",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "09.04.03",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 18,
+									"main": 15,
+									"target": 3
+								},
+								"paid": {
+									"total": 2
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 47,
+			"faculty": "Факультет пищевых производств и биотехнологии",
+			"profile": "Биотехнология",
+			"speciality": "Прикладная биотехнология",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "19.04.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 10
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 48,
+			"faculty": "Факультет пищевых производств и биотехнологии",
+			"profile": "Продукты питания из растительного сырья",
+			"speciality": "Биотехнология продуктов питания из растительного сырья",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "19.04.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 9,
+									"main": 8,
+									"target": 1
+								},
+								"paid": {
+									"total": 1
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 49,
+			"faculty": "Факультет механизации",
+			"profile": "Автомобили и тракторы",
+			"speciality": "Наземные транспортно-технологические средства",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Специалитет",
+					"code": "23.05.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "5 лет",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 25
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": [
+				{ "name": "Математика", "min": 27, "classname":"required" },
+				{ "name": "Русский язык", "min": 36, "classname":"required" },
+				{ "name": "Физика", "min": 36, "classname":"optional" },
+				{ "name": "Химия", "min": 36, "classname":"optional" },
+				{ "name": "Информатика и ИКТ", "min": 40, "classname":"optional" },
+				{ "name": "Иностранный язык", "min": 22, "classname":"optional" }
+			]
+		},
+		{
+			"id": 50,
+			"faculty": "Факультет пищевых производств и биотехнологии",
+			"profile": "Продукты питания из растительного сырья",
+			"speciality": "Здоровое питание: качество и безопасность",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "19.04.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 8,
+									"main": 6,
+									"target": 2
+								},
+								"paid": {
+									"total": 2
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 51,
+			"faculty": "Факультет пищевых производств и биотехнологии",
+			"profile": "Продукты питания животного происхождения",
+			"speciality": "Разработка технологий продуктов питания животного происхождения",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "19.04.03",
+					"forms": [
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 9,
+									"main": 8,
+									"target": 1
+								},
+								"paid": {
+									"total": 6
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 52,
+			"faculty": "Землеустроительный факультет",
+			"profile": "Землеустройство и кадастры",
+			"speciality": "Управление земельными ресурсами",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "21.04.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 5,
+									"main": 4,
+									"target": 1
+								},
+								"paid": {
+									"total": 10
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 53,
+			"faculty": "Факультет агрохимии и защиты растений",
+			"profile": "Агробиохимия",
+			"speciality": "Агрохимия и агропочвоведение",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "35.04.03",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 22,
+									"main": 18,
+									"target": 4
+								},
+								"paid": {
+									"total": 3
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 54,
+			"faculty": "Факультет агрономии и экологии",
+			"profile": "Агрономия",
+			"speciality": "Агротехнология",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "35.04.04",
+					"forms": [
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 8,
+									"main": 6,
+									"target": 2
+								},
+								"paid": {
+									"total": 7
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 55,
+			"faculty": "Факультет агрономии и экологии",
+			"profile": "Агрономия",
+			"speciality": "Генетика и селекция в растениеводстве",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "35.04.04",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 56,
+			"faculty": "Факультет агрономии и экологии",
+			"profile": "Агрономия",
+			"speciality": "Земледелие",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "35.04.04",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 14,
+									"main": 11,
+									"target": 3
+								},
+								"paid": {
+									"total": 1
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 8,
+									"main": 7,
+									"target": 1
+								},
+								"paid": {
+									"total": 7
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 57,
+			"faculty": "Факультет агрохимии и защиты растений",
+			"profile": "Агрономия",
+			"speciality": "Защита и карантин растений",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "35.04.04",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 20,
+									"main": 16,
+									"target": 4
+								},
+								"paid": {
+									"total": 2
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 58,
+			"faculty": "Факультет агрономии и экологии",
+			"profile": "Агрономия",
+			"speciality": "Селекция и семеноводство",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "35.04.04",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 14,
+									"main": 11,
+									"target": 3
+								},
+								"paid": {
+									"total": 1
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 59,
+			"faculty": "Факультет плодоовощеводства и виноградарства",
+			"profile": "Садоводство",
+			"speciality": "Инновационные технологии в садоводстве",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "35.04.05",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 18,
+									"main": 14,
+									"target": 4
+								},
+								"paid": {
+									"total": 2
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 10,
+									"main": 8,
+									"target": 2
+								},
+								"paid": {
+									"total": 5
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 60,
+			"faculty": "Факультет механизации",
+			"profile": "Агроинженерия",
+			"speciality": "Технологии и средства механизации сельского хозяйства",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "35.04.06",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 5,
+									"main": 4,
+									"target": 1
+								},
+								"paid": {
+									"total": 10
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 15,
+									"main": 12,
+									"target": 3
+								},
+								"paid": {
+									"total": 10
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 61,
+			"faculty": "Факультет зоотехнии",
+			"profile": "Зоотехния",
+			"speciality": "Генетика и селекция в животноводстве",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "36.04.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 62,
+			"faculty": "Факультет зоотехнии",
+			"profile": "Зоотехния",
+			"speciality": "Частная зоотехния, технология производства продуктов животноводства",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "36.04.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 8,
+									"main": 7,
+									"target": 1
+								},
+								"paid": {
+									"total": 5
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 13,
+									"main": 12,
+									"target": 1
+								},
+								"paid": {
+									"total": 12
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 63,
+			"faculty": "Учетно-финансовый факультет",
+			"profile": "Экономика",
+			"speciality": "Анализ и аудит бизнеса",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "38.04.01",
+					"forms": [
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 25
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 64,
+			"faculty": "Учетно-финансовый факультет",
+			"profile": "Экономика",
+			"speciality": "Учет, анализ и аудит",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "38.04.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"vacations": {
+									"free": {
+										"total": 0
+									},
+									"paid": {
+										"total": 25
+									}
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 65,
+			"faculty": "Юридический факультет",
+			"profile": "Экономика",
+			"speciality": "Цифровая экономика в АПК",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "38.04.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 66,
+			"faculty": "Экономический факультет",
+			"profile": "Экономика",
+			"speciality": "Экономика фирмы и отраслевых рынков",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "38.04.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 67,
+			"faculty": "Экономический факультет",
+			"profile": "Менеджмент",
+			"speciality": "Аграрный менеджмент",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "38.04.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 3,
+									"main": 2,
+									"target": 1
+								},
+								"paid": {
+									"total": 12
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 68,
+			"faculty": "Факультет управления",
+			"profile": "Менеджмент",
+			"speciality": "Менеджмент организации",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "38.04.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						},
+						{
+							"name": "Заочная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 69,
+			"faculty": "Экономический факультет",
+			"profile": "Менеджмент",
+			"speciality": "Управление проектами",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "38.04.02",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						},
+						{
+							"name": "Очная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 15
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 70,
+			"faculty": "Факультет управления",
+			"profile": "Государственное и муниципальное управление",
+			"speciality": "Управление комплексным развитием сельских территорий",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "38.04.04",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 12
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 71,
+			"faculty": "Юридический факультет",
+			"profile": "Юриспруденция",
+			"speciality": "Правовое обеспечение и защита бизнеса",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "40.04.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 2,
+									"main": 1,
+									"target": 1
+								},
+								"paid": {
+									"total": 43
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 20
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 72,
+			"faculty": "Юридический факультет",
+			"profile": "Юриспруденция",
+			"speciality": "Теория и практика расследования преступлений",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "40.04.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 2,
+									"main": 1,
+									"target": 1
+								},
+								"paid": {
+									"total": 43
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 20
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		},
+		{
+			"id": 73,
+			"faculty": "Юридический факультет",
+			"profile": "Юриспруденция",
+			"speciality": "Юридическая деятельность в сфере земельно-имущественных отношений и агробизнеса",
+			"price":"500 000",
+			"education_levels": [
+				{
+					"name": "Магистратура",
+					"code": "40.04.01",
+					"forms": [
+						{
+							"name": "Очная",
+							"duration": "2 года",
+							"vacations": {
+								"free": {
+									"total": 2,
+									"main": 1,
+									"target": 1
+								},
+								"paid": {
+									"total": 43
+								}
+							}
+						},
+						{
+							"name": "Очно-заочная",
+							"duration": "2 года 5 мес.",
+							"vacations": {
+								"free": {
+									"total": 0
+								},
+								"paid": {
+									"total": 20
+								}
+							}
+						}
+					]
+				}
+			],
+			"requirements": []
+		}
+	]
+}

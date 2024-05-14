@@ -1,0 +1,237 @@
+.container {
+	margin: 0 auto;
+	max-width: $huge;
+	width: 95%;
+}
+
+@media (min-width: $medium) {
+	.container {
+		width: 90%;
+	}
+}
+
+@media (min-width: $large) {
+	.container {
+		width: 85%;
+	}
+}
+
+.col .row {
+	margin-left: (-1 * $gutter-width / 2);
+	margin-right: (-1 * $gutter-width / 2);
+}
+
+.section {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+
+	&.no-pad {
+		padding: 0;
+	}
+
+	&.no-pad-bot {
+		padding-bottom: 0;
+	}
+
+	&.no-pad-top {
+		padding-top: 0;
+	}
+}
+
+
+// Mixins to eliminate code repitition
+@mixin reset-offset {
+	margin-left: 0;
+	left: auto;
+	right: auto;
+}
+
+@mixin gridCol($class) {
+	$i: 1;
+
+	@while($i <=$cols) {
+		
+		$perc: unquote((100 / ($cols / $i)) + "%");
+
+		&.#{$class}#{$i} {
+			width: $perc;
+			@include reset-offset();
+		}
+
+		$i: $i+1;
+	}
+
+	$i: 1;
+
+	@while($i <=$cols) {
+		$perc: unquote((100 / ($cols / $i)) + "%");
+
+		&.offset-#{$class}#{$i} {
+			margin-left: $perc;
+		}
+
+		&.pull-#{$class}#{$i} {
+			right: $perc;
+		}
+
+		&.push-#{$class}#{$i} {
+			left: $perc;
+		}
+
+		$i: $i+1;
+	}
+}
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+
+	&.flex{
+		display: flex;
+		flex-wrap: wrap;
+
+		& > .col{
+			float: none;
+		}
+	}
+
+	&.vcenter{
+		align-items: center;
+	}
+
+	// Clear floating children
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.col {
+		float: left;
+		box-sizing: border-box;
+		padding: 0 $gutter-width / 2;
+		min-height: 1px;
+		width: 100%;
+
+		&[class*="push-"],
+		&[class*="pull-"] {
+			position: relative;
+		}
+
+
+		//= Tiny rules ==========================================
+
+		@media(max-width: $extra-small) {
+			@include gridCol("t");
+		}
+
+		// //= Extra-small rules ===================================
+
+		@media(min-width: $extra-small) {
+			@include gridCol("xs");
+		}
+
+		// //= Small rules =========================================
+		@media(min-width: $small) {
+			@include gridCol("s");
+		}
+
+		// //= Medium rules =========================================
+		@media(min-width: $medium) {
+			@include gridCol('m');
+		}
+
+		// //= Large rules ==========================================
+		@media(min-width: $large) {
+			@include gridCol('l');
+		}
+
+		// //= Extra-large rules ====================================
+		@media(min-width: $extra-large) {
+			@include gridCol('xl');
+		}
+
+		// //= Huge rules ====================================
+		@media(min-width: $huge) {
+			@include gridCol('h');
+		}
+	}
+}
+
+@mixin hide($class, $min, $max){
+	.hide-#{$class}-down{@media(max-width: $min){display: none !important;}}
+	.hide-#{$class}-up{@media(min-width: $min){display: none !important;}}
+	.hide-#{$class}-only{@media(min-width: $min) and (max-width: $max){display: none !important;}}
+}
+
+@mixin left($class, $min, $max){
+	.hide-#{$class}-down{@media(max-width: $min){text-align: left;}}
+	.hide-#{$class}-up{@media(min-width: $min){text-align: left;}}
+	.hide-#{$class}-only{@media(min-width: $min) and (max-width: $max){text-align: left;}}
+}
+
+@mixin center($class, $min, $max){
+	.hide-#{$class}-down{@media(max-width: $min){text-align: center;}}
+	.hide-#{$class}-up{@media(min-width: $min){text-align: center;}}
+	.hide-#{$class}-only{@media(min-width: $min) and (max-width: $max){text-align: center;}}
+}
+
+@mixin right($class, $min, $max){
+	.hide-#{$class}-down{@media(max-width: $min){text-align: right;}}
+	.hide-#{$class}-up{@media(min-width: $min){text-align: right;}}
+	.hide-#{$class}-only{@media(min-width: $min) and (max-width: $max){text-align: right;}}
+}
+
+@mixin align($direction, $class, $min, $max){
+	.align-#{$direction}-#{$class}-down{@media(max-width: $min){text-align: #{$direction};}}
+	.align-#{$direction}-#{$class}-up{@media(min-width: $min){text-align: #{$direction};}}
+	.align-#{$direction}-#{$class}-only{@media(min-width: $min) and (max-width: $max){text-align: #{$direction};}}
+}
+
+@mixin alignFrom($direction, $class, $min){
+	.align-#{$direction}-#{$class}{@media(min-width: $min){text-align: #{$direction};}}
+}
+
+@mixin order($class, $media, $orderNum){
+	.order-#{$class}#{$orderNum}{
+		@media(max-width: $media){
+			order: $orderNum;
+		}
+	}
+}
+
+// Hide
+@include hide(s, $small, $medium);
+@include hide(m, $medium, $large);
+@include hide(l, $large, $extra-large);
+@include hide(xl, $extra-large, $huge);
+.hide-h{@media(min-width: $huge){display: none;}}
+
+// Align
+@include align(left, s, $small, $medium);
+@include align(center, s, $small, $medium);
+@include align(right, s, $small, $medium);
+@include align(left, m, $medium, $large);
+@include align(center, m, $medium, $large);
+@include align(right, m, $medium, $large);
+@include align(left, l, $large, $extra-large);
+@include align(center, l, $large, $extra-large);
+@include align(right, l, $large, $extra-large);
+@include align(left, xl, $extra-large, $huge);
+@include align(center, xl, $extra-large, $huge);
+@include align(right, xl, $extra-large, $huge);
+@include alignFrom(left, h, $huge);
+@include alignFrom(center, h, $huge);
+@include alignFrom(right, h, $huge);
+
+// Order
+$medias: ( $extra-small, $small, $medium, $large, $extra-large );
+$classes: ( 'xs', 's', 'm', 'l', 'xl' );
+
+@for $z from 1 to length($medias){
+	
+	@for $i from 1 to $cols{
+		@include order(nth($classes, $z), nth($medias, $z), $i);
+	}
+}

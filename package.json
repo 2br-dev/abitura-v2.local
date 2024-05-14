@@ -1,0 +1,37 @@
+{
+  "name": "abitura.local",
+  "version": "1.0.0",
+  "description": "KubGAU abitura mechanics",
+  "main": "master.js",
+  "author": "2BR",
+  "license": "MIT",
+  "scripts": {
+    "start": "clear && gulp watch"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "8.0.0",
+    "gulp-cssbeautify": "^3.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "jquery": "^3.7.1",
+    "materialize-css": "^1.0.0",
+    "node-sass": "^9.0.0",
+    "swiper": "^11.1.0",
+    "vanilla-lazyload": "^19.1.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-typescript": "^7.24.1",
+    "@types/jquery": "^3.5.29",
+    "babel-loader": "^9.1.3",
+    "mustache": "^4.2.0",
+    "webpack": "^5.91.0",
+    "webpack-stream": "^7.0.0"
+  }
+}

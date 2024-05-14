@@ -1,0 +1,12 @@
+[
+	{"name": "Математика", "class": "single" },
+	{"name": "Биология", "class": "single" },
+	{"name": "География", "class": "single" },
+	{"name": "Обществознание", "class": "single" },
+	{"name": "Русский язык", "class": "single" },
+	{"name": "Иностранный язык", "class": "single" },
+	{"name": "Информатика и ИКТ", "class": "single" },
+	{"name": "История", "class": "single" },
+	{"name": "Физика", "class": "single" },
+	{"name": "Химия", "class": "single" }
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="/css/master.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="filters">
+			<div class="top-filters">
+				<div class="level-filters">
+					<div class="filter-header">Уровень образования</div>
+					<div class="filters-wrapper">
+						<div class="level-filter"><input type="radio" name="level" id="l1" value="Бакалавриат" checked><label for="l1">Бакалавриат</label></div>
+						<div class="level-filter"><input type="radio" name="level" id="l2" value="Специалитет"><label for="l2">Специалитет</label></div>
+						<div class="level-filter"><input type="radio" name="level" id="l3" value="Магистратура"><label for="l3">Магистратура</label></div>
+						<div class="level-filter"><input type="radio" name="level" id="l4" value="Аспирантура"><label for="l3">Аспирантура</label></div>
+					</div>
+				</div>
+				<div class="quick-search">
+					<div class="filter-header">Поиск</div>
+					<input type="search" placeholder="Поиск" name="search">
+				</div>
+			</div>
+		</div>
+		<div class="results">
+			<div class="filters-sidebar">
+				<div class="pin">
+					<div class="filter-header">Выберите, пожалуйста, минимум 3 сданных предмета ЕГЭ</div>
+					<div class="tags">
+						<label class="single">Математика</label><label class="single">Биология</label><label class="single">География</label><label class="single">Обществознание</label><label class="single">Русский язык</label><label class="single">Иностранный язык</label><label class="single">Информатика и ИКТ</label><label class="single">История</label><label class="single">Физика</label><label class="single">Химия</label>
+					</div>
+					<div class="action">
+						<a href="javascript:void(0)" class="bttn disabled" id="filter">Подобрать</a>
+					</div>
+				</div>
+			</div>
+			<div id="output" data-level="Бакалавриат"></div>
+		</div>
+	</div>
+	<script src="/js/master.js"></script>
+</body>
+
+</html>

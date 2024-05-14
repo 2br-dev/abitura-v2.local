@@ -1,0 +1,379 @@
+@mixin fieldHeader(){
+	font-size: clamp(12px, 2vw, 14px);
+	color: #a4a4a4;
+	margin-bottom: 10px;
+}
+
+body{
+	background-color: #F2F2F2;
+}
+
+.filters{
+
+	padding: 4vmax 0;
+
+	& .filter-header{
+		@include fieldHeader();
+	}
+
+	& .top-filters{
+
+		display: flex;
+		justify-content: space-between;
+
+		@media(max-width: 1000px){
+			flex-direction: column;
+
+			& > *:first-of-type{
+				margin-bottom: $gutter-width;
+			}
+		}
+
+		& .level-filters{
+			
+			& .filters-wrapper{
+				display: flex;
+
+				@media(max-width: 600px){
+					flex-wrap: wrap;
+
+					& > *{
+						width: 50%;
+					}
+				}
+				@media(max-width: 400px){
+					flex-direction: column;
+
+					& > *{
+						width: 100%;
+					}
+				}
+			}
+			
+			& .level-filter{
+
+				& input{
+					display: none;
+
+					& ~ label{
+						padding: 10px 20px;
+						display: block;
+						cursor: pointer;
+					}
+
+					&:checked ~ label{
+						font-weight: bold;
+						text-decoration: underline;
+						background-color: rgba(black, .05);
+					}
+				}
+			}
+		}
+
+		& .quick-search{
+
+			& input{
+				display: block;
+				height: 42px;
+				border: 0;
+				line-height: 42px;
+				padding: 0 20px;
+				width: 100%;
+
+				&:focus{
+					outline: none;
+				}
+			}
+		}
+	}
+
+	&[data-level="Магистратура"] .results{
+		display: none;
+	}
+
+	&[data-level="Аспирантура"] .results{
+		display: none;
+	}
+	
+}
+
+.results{
+
+	display: flex;
+
+	& .filter-header{
+		@include fieldHeader();
+	}
+
+	& .tags{
+
+		flex-shrink: 0;
+		padding-right: 20px;
+		margin-bottom: 2vw;
+		
+		& label{
+
+			white-space: nowrap;
+			border: 1px solid #ccc;
+			display: block;
+			line-height: 2em;
+			cursor: pointer;
+			padding: 0 1em;
+			margin-bottom: 10px;
+			user-select: none;
+
+			&:hover{
+				background-color: rgba(black, .05);
+			}
+
+			&.active{
+				background-color: #3F3F3F;
+				color: #fff;
+			}
+		}
+	}
+}
+
+#output{
+
+	display: grid;
+	gap: $gutter-width;
+	grid-template-columns: repeat(3, 1fr);
+
+	& .faculty-header{
+		grid-column: 1 / -1;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 1vmax;
+
+		& h2{
+			margin: 1rem;
+		}
+	}
+
+	@media(max-width: 1500px){
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media(max-width: 750px){
+		grid-template-columns: 1fr;
+	}
+
+	& .card{
+
+		min-width: 250px;
+		flex-grow: 1;
+		padding: clamp(5px, 3vw, 48px);
+		background-color: #fff;
+
+		& .card-content{
+
+			& .education-levels{
+				display: flex;
+				justify-content: flex-end;
+				margin-bottom: $gutter-width;
+
+				& .education-level{
+
+					display: flex;
+
+					& .education-form{
+
+						padding: 5px 10px;
+						background-color: rgba(black, .05);
+						cursor: pointer;
+						
+						&:hover{
+							background-color: rgba(black, .1);
+						}
+
+						&:not(:first-of-type){
+							margin-left: 6px;
+						}
+
+						&.active{
+							background-color: black;
+							color: #fff;
+						}
+					}
+				}
+			}
+
+			& .title{
+				font-size: clamp(16px, 2vw, 18px);
+				font-weight: bold;
+				margin-bottom: $gutter-width;
+			}
+			
+			& .subtitle{
+				font-size: clamp(18px, 2vw, 24px);
+			}
+
+			& .section-title{
+				@include fieldHeader();
+			}
+
+			& .numbers{
+
+				display: flex;
+				flex-wrap: wrap;
+
+				& .number{
+
+					width: 50%;
+					margin-top: $gutter-width;
+					position: relative;
+
+					& .number-value{
+						font-size: clamp(18px, 2vw, 24px);
+						font-weight: bold;
+					}
+				}
+			}
+
+			& .requirements{
+				margin-top: $gutter-width;
+				display: flex;
+				flex-wrap: wrap;
+
+				& .requirement{
+					white-space: nowrap;
+					padding: 0 .8em;
+					margin-bottom: 6px;
+					border-radius: 1.5em;
+					background-color: #efefef;
+					display: flex;
+					align-items: center;
+					padding: 6px 12px;
+
+					& .min{
+						font-size: 11px;
+						padding: 0 4px;
+						border-radius: 1em;
+						background-color: rgba(black, .2);
+						line-height: 1.3em;
+						margin-left: 6px;
+						position: relative;
+					}
+
+					&.required{
+						background-color: black;
+						color: #fff;
+						position: relative;
+
+						&:before{
+							content: 'Обязательный экзамен';
+							position: absolute;
+							left: 50%;
+							bottom: calc(100% + 6px);
+							background-color: rgba(black, .7);
+							color: #fff;
+							padding: 6px;
+							transition: opacity .2s, transform .2s;
+							opacity: 0;
+							transform: translate(-50%, 20px);
+							pointer-events: none;
+						}
+
+						&:hover:before{
+							opacity: 1;
+							transform: translate(-50%, 0);
+						}
+
+						& .min{
+							background-color: rgba(white, .2);
+						}
+					}
+
+					&.optional{
+						box-shadow: 0 2px 4px #ccc inset;
+					}
+					
+					&:not(:last-of-type){
+						margin-right: 6px;
+					}
+				}
+			}
+
+			& .note{
+				border-top: 1px solid #eee;
+				padding-top: $gutter-width;
+				margin-top: $gutter-width;
+				font-size: 14px;
+				color: #333;
+			}
+		}
+	}
+
+	&[data-level="Бакалавриат"]{
+
+		& .card .card-content .education-levels .education-level:not([data-level="Бакалавриат"]){
+			display: none;
+		}
+	}
+
+	&[data-level="Специалитет"]{
+
+		& .card .card-content .education-levels .education-level:not([data-level="Специалитет"]){
+			display: none;
+		}
+	}
+
+	&[data-level="Магистратура"]{
+
+		& .card .card-content .requirements{
+			display: none;
+		}
+
+		& .card .card-content .education-levels .education-level:not([data-level="Магистратура"]){
+			display: none;
+		}
+	}
+}
+
+.tooltip{
+
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	background: rgba(black, .7);
+	color: #fff;
+	padding: clamp(5px, 2vw, 20px);
+	backdrop-filter: blur(10px);
+	transition: transform .2s, opacity .2s;
+	pointer-events: none;
+	transform: translateY(20px);
+	opacity: 0;
+
+	&.open{
+		opacity: 1;
+		transform: none;
+	}
+
+	& .kv-pair{
+		display: flex;
+		justify-content: space-between;
+
+		& .value{
+			margin-left: 20px;
+		}
+
+		&:not(:last-of-type){
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.bttn{
+	width: 100%;
+	display: block;
+	width: calc(100% - 20px);
+	text-align: center;
+	line-height: 2em;
+	background: black;
+	color: #fff;
+
+	&.disabled{
+		// opacity: .5;
+		// pointer-events: none;
+	}
+}
