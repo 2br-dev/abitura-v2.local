@@ -30,6 +30,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
 	$('body').on('click', '.tags label', filterByTags); //  Эвент клика на предметы ЕГЭ (теги)
 	$('body').on('click', '.education-form', switchFormType); //   Эвент переключения типа образования в карточке
 	$('body').on('click', '#filter', runFilters); //   Запуск фильтрации
+	$('body').on('click', '#reset', resetFilters); //   Сброс фильтрации
 
 	$('body').on('mouseenter', '.number', (e:JQuery.MouseEnterEvent) => { makeTooltip(e.currentTarget); });
 	$('body').on('mouseleave', '.number', (e:JQuery.MouseLeaveEvent) => { destroyToolTip(e.currentTarget) });
@@ -239,6 +240,12 @@ function filterByTags(e:JQuery.ClickEvent):void{
 }
 
 function runFilters():void{
+
+	if(filterParams.requirements.length > 0 && filterParams.requirements.length < 3){
+		alert("Пожалуйста, выберите не менее 3-х предметов!");
+		return;
+	}
+
 	let filteredData = filter(cards_data);
 	render(filteredData);
 }
@@ -394,6 +401,7 @@ function filter(data:IData):IData{
 	
 			outputArray = optional;
 		}
+
 	}
 
 	// Сортировка массива перед выдачей
@@ -466,4 +474,15 @@ function InsertArray(arr:Array<ICardData>, index:number, newElement:ICardData):I
 		...arr.slice(index)
 	]
 	return newArray;
+}
+
+/**
+ * Сброс фильтров
+ */
+function resetFilters(){
+	filterParams.requirements = [];
+	document.querySelectorAll('.tags label').forEach(el => {
+		el.classList.remove('active');
+	})
+	runFilters();
 }

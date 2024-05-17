@@ -122,6 +122,10 @@ body{
 			margin-bottom: 10px;
 			user-select: none;
 
+			&:nth-child(-n + 4){
+				font-weight: bold;
+			}
+
 			&:hover{
 				background-color: rgba(black, .05);
 			}
@@ -130,6 +134,21 @@ body{
 				background-color: #3F3F3F;
 				color: #fff;
 			}
+		}
+	}
+
+	& .action{
+
+		& a:not(.bttn){
+			color: #333;
+			text-decoration: underline;
+			display: block;
+			text-align: center;
+			width: calc(100% - 20px);
+		}
+
+		& a:not(:last-of-type){
+			margin-bottom: 20px;
 		}
 	}
 }

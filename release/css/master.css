@@ -5691,6 +5691,10 @@ body {
     user-select: none;
 }
 
+.results .tags label:nth-child(-n + 4) {
+    font-weight: bold;
+}
+
 .results .tags label:hover {
     background-color: rgba(0, 0, 0, 0.05);
 }
@@ -5698,6 +5702,18 @@ body {
 .results .tags label.active {
     background-color: #3F3F3F;
     color: #fff;
+}
+
+.results .action a:not(.bttn) {
+    color: #333;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    width: calc(100% - 20px);
+}
+
+.results .action a:not(:last-of-type) {
+    margin-bottom: 20px;
 }
 
 #output {
